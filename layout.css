@@ -2,13 +2,18 @@
   padding: 0;
   margin: 0;
   font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #78A1BB;
+  color: #EBF5EE;
 }
 
 #nav__bar {
   list-style-type: none;
   display: flex;
   padding: 0;
-  margin-right: 20px;
   height: 100%;
   align-items: center;
 }
@@ -19,12 +24,41 @@
 
 #nav__bar li a {
   text-decoration: none;
-  color: black;
+  color: inherit;
+}
+
+#nav__bar li a:hover {
+  border-radius: 5px;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
   height: 80px;
-  background-color: grey;
+  background-color: #283044;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 40px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main__section {
+  margin-top: 30px;
+  width: 680px;
+}
+
+img {
+  margin-top: 60px;
 }
