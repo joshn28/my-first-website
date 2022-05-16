@@ -1,3 +1,5 @@
+/* Global Styles */
+
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +10,24 @@
 body {
   background-color: #78A1BB;
   color: #EBF5EE;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  background-color: #283044;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 40px;
+  margin-left: 45px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 #nav__bar {
@@ -31,23 +51,7 @@ body {
   border-radius: 5px;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  height: 80px;
-  background-color: #283044;
-}
-
-h1 {
-  font-size: 60px;
-  margin-top: 40px;
-  margin-left: 45px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 40px;
-}
+/* Page 1 (Home Page) */
 
 #main {
   display: flex;
@@ -59,6 +63,75 @@ h2 {
   width: 680px;
 }
 
-img {
+#aao-img {
   margin-top: 60px;
 }
+
+/* Page 2 */
+
+#fieldset {
+  width: 750px;
+  height: 780px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #283044;
+  border: none;
+  border-radius: 10px;
+}
+
+.fieldset__control-dimensions,
+#fieldset__checkbox,
+#fieldset textarea {
+  width: 466px;
+}
+
+.fieldset__control-dimensions {
+  height: 60px;
+}
+
+#fieldset textarea {
+  margin-top: 20px;
+  height: 271px;
+}
+
+#fieldset__textarea {
+  margin: 0;
+}
+
+#fieldset legend {
+  position: relative;
+  bottom: 20px;
+}
+
+.fieldset__div {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fieldset__div input {
+  margin-top: 20px;
+}
+
+#fieldset__checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0 10px;
+}
+
+#fieldset__checkbox input {
+  margin-right: 10px;
+}
+
+#fieldset button {
+  margin-top: 20px;
+  width: 224px;
+  padding: 5px 0;
+}
+
+/* Page 3 */
