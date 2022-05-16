@@ -49,10 +49,6 @@ a {
   margin-right: 47px;
 }
 
-#nav__bar li a:hover {
-  border-radius: 5px;
-}
-
 /* Page 1 (Home Page) */
 
 #main {
@@ -159,7 +155,7 @@ a {
 }
 
 #main__div li a:hover {
-  text-decoration: underline;
+  color: #000;
 }
 
 #main__images-resize {
